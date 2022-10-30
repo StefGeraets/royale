@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --gird-cell-size: 32px;
+  --grid-cell-size: 32px;
 }
 
 .map-grid {
   background: transparent;
   background-image: linear-gradient(rgba(150, 150, 150, .25) 1px, transparent 1px), linear-gradient(90deg, rgba(150, 150, 150, .25) 1px, transparent 1px);
-  background-size: var(--gird-cell-size) var(--gird-cell-size);
+  background-size: var(--grid-cell-size) var(--grid-cell-size);
   background-position: -1px -1px;
 }
+
